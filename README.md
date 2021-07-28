@@ -15,6 +15,24 @@
 - **代码规范校验**，使用 `eslint`、`lint-staged`、`prettier`、`stylelint`
 - **模拟请求数据**，基于 `mockjs` 实现
 
+## 应用截图
+
+首页
+
+![WechatIMG2595](./WechatIMG2595.jpeg)
+
+详情页
+
+![WechatIMG2596](./WechatIMG2596.jpeg)
+
+白板
+
+![WechatIMG2597](./WechatIMG46537.jpeg)
+
+我的
+
+![WechatIMG2598](./WechatIMG2597.jpeg)
+
 ## 开始
 
 ```
