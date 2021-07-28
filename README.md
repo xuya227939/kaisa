@@ -43,6 +43,8 @@ $ npx react-native run-ios
 
 这是由于 Amap 地图组件没有兼容新版，把这些报错代码删除即可
 
+2. 如果 npm i 报错，请使用 yarn install
+
 ## License
 
 [MIT](https://tldrlegal.com/license/mit-license)
