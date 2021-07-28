@@ -24,12 +24,24 @@ $ brew install cocoapods（macOS）
 
 $ cd kaisa
 
-$ npm i
+$ npm i || yarn install
 
 $ npx pod-install ios
 
 $ npx react-native run-ios
 ```
+
+## FAQ
+
+1. 启动的时候，会有 map 报错，如下图
+
+![WechatIMG2599](./WechatIMG2599.png)
+
+![WechatIMG2500](./WechatIMG2600.png)
+
+![WechatIMG2501](./WechatIMG2601.png)
+
+这是由于 Amap 地图组件没有兼容新版，把这些报错代码删除即可
 
 ## License
 
