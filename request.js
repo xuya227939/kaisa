@@ -13,7 +13,7 @@ service.interceptors.request.use(
   function (config) {
     config.headers['Content-Type'] = 'application/json;charset=UTF-8';
     config.headers['access-token'] =
-      'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhZ2VudElkIjoiNWU4ZDNiMWYzODFhYTQzMWExNGVlNmI0Iiwicm9sZUxldmVsIjoiMSIsInRlbmFudElkIjoiNWRiMjZmMjY5N2ZmMDllZTQ0MTBmNGEzIiwib3JnSWQiOiI1ZGIyNmU3NTk3ZmYwOWVlNDQxMGRjZmQiLCJpYXQiOjE2Mjc0NTA2MDAsImV4cCI6MTYyNzUzNzAwMH0.Blwz02cfYzkHgez8J0TfQ8EzPHV-4jYzIZrIeRmKUX4';
+      'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhZ2VudElkIjoiNWU4ZDNiMWYzODFhYTQzMWExNGVlNmI0Iiwicm9sZUxldmVsIjoiMSIsInRlbmFudElkIjoiNWRiMjZmMjY5N2ZmMDllZTQ0MTBmNGEzIiwib3JnSWQiOiI1ZGIyNmU3NTk3ZmYwOWVlNDQxMGRjZmQiLCJpYXQiOjE2Mjc3MzgyMTEsImV4cCI6MTYyNzgyNDYxMX0.wNA9Tzb8QLW07YbfEoQgBHYsH7HHnY1-kG1n3p_3tXY';
     // 每次请求带上时间戳 防刷处理
     if (config.method === 'get') {
       config.params = {

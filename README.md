@@ -19,19 +19,19 @@
 
 首页
 
-![WechatIMG2595](./WechatIMG2595.jpeg)
+![WechatIMG2595](./assets/images/WechatIMG2595.jpeg)
 
 详情页
 
-![WechatIMG2596](./WechatIMG2596.jpeg)
+![WechatIMG2596](./assets/images/WechatIMG2596.jpeg)
 
 白板
 
-![WechatIMG2597](./WechatIMG46537.jpeg)
+![WechatIMG2597](./assets/images/WechatIMG46537.jpeg)
 
 我的
 
-![WechatIMG2598](./WechatIMG2597.jpeg)
+![WechatIMG2598](./assets/images/WechatIMG2597.jpeg)
 
 ## 开始
 
@@ -53,11 +53,11 @@ $ npx react-native run-ios
 
 1. 启动的时候，会有 map 报错，如下图
 
-![WechatIMG2599](./WechatIMG2599.png)
+![WechatIMG2599](./assets/images/WechatIMG2599.png)
 
-![WechatIMG2500](./WechatIMG2600.png)
+![WechatIMG2500](./assets/images/WechatIMG2600.png)
 
-![WechatIMG2501](./WechatIMG2601.png)
+![WechatIMG2501](./assets/images/WechatIMG2601.png)
 
 这是由于 Amap 地图组件没有兼容新版，把这些报错代码删除即可
 
