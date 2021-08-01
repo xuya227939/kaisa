@@ -1,26 +1,25 @@
 {
-  "presets": ["module:metro-react-native-babel-preset"],
-  "plugins": [
-    ["@babel/plugin-proposal-optional-chaining"],
-    ["@babel/plugin-proposal-decorators", {"legacy": true}],
-    [
-      "module-resolver",
-      {
-        "root": ["./src"],
-        "extensions": [".ios.js", ".android.js", ".js", ".ts", ".tsx", ".json"],
-        "alias": {
-          "@/*": ["./src/*"],
-          "@assets/*": ["./src/assets/*"],
-          "@components/*": ["./src/components/*"],
-          "@locales/*": ["./src/locales/*"],
-          "@mock/*": ["./src/mock/*"],
-          "@pages/*": ["./src/pages/*"],
-          "@mobx/*": ["./src/mobx/*"],
-          "@utils/*": ["./src/utils/*"],
-          "@servers/*": ["./src/servers/*"],
-          "@request": ["src/request"]
-        }
-      }
+    "presets": ["module:metro-react-native-babel-preset"],
+    "plugins": [
+        ["@babel/plugin-proposal-optional-chaining"],
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        [
+            "module-resolver",
+            {
+                "root": ["./src"],
+                "extensions": [".ios.js", ".android.js", ".js", ".ts", ".tsx", ".json"],
+                "alias": {
+                    "@/*": ["./src/*"],
+                    "@assets/*": ["./src/assets/*"],
+                    "@components/*": ["./src/components/*"],
+                    "@locales/*": ["./src/locales/*"],
+                    "@mock/*": ["./src/mock/*"],
+                    "@pages/*": ["./src/pages/*"],
+                    "@utils/*": ["./src/utils/*"],
+                    "@servers/*": ["./src/servers/*"],
+                    "@request": ["src/request"]
+                }
+            }
+        ]
     ]
-  ]
 }

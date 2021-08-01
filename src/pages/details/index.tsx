@@ -11,11 +11,8 @@ import {
     StyleSheet,
     Image
 } from 'react-native';
-import { observer, inject } from 'mobx-react';
 import { MapView } from 'react-native-amap3d';
 
-@inject('rootStore')
-@observer
 class Details extends React.Component {
     constructor(props) {
         super(props);
@@ -34,15 +31,11 @@ class Details extends React.Component {
     };
 
     render() {
-        const {
-            rootStore: { count, add, reduce }
-        } = this.props;
-
         const { modalVisible } = this.state;
 
         return (
             <View>
-                <View
+                {/* <View
                     style={{
                         display: 'flex',
                         justifyContent: 'center',
@@ -52,7 +45,7 @@ class Details extends React.Component {
                     <Text>{count}</Text>
                     <Button onPress={add} title="+" />
                     <Button onPress={reduce} title="-" />
-                </View>
+                </View> */}
 
                 <TextInput style={{ height: 40, borderColor: 'gray', borderWidth: 1 }} />
                 <Switch

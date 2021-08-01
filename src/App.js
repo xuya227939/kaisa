@@ -6,8 +6,6 @@ import { createNativeStackNavigator } from 'react-native-screens/native-stack';
 import { enableScreens } from 'react-native-screens';
 
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-import { Provider } from 'mobx-react';
-import RootStore from './mobx';
 
 enableScreens();
 const Stack = createNativeStackNavigator();
@@ -46,15 +44,13 @@ function WhiteBoardScreen() {
 
 function App() {
     return (
-        <Provider rootStore={RootStore}>
-            <NavigationContainer>
-                <Tab.Navigator>
-                    <Tab.Screen name="首页" component={HomeStackScreen} />
-                    <Tab.Screen name="白板" component={WhiteBoardScreen} />
-                    <Tab.Screen name="我的" component={MyScreen} />
-                </Tab.Navigator>
-            </NavigationContainer>
-        </Provider>
+        <NavigationContainer>
+            <Tab.Navigator>
+                <Tab.Screen name="首页" component={HomeStackScreen} />
+                <Tab.Screen name="白板" component={WhiteBoardScreen} />
+                <Tab.Screen name="我的" component={MyScreen} />
+            </Tab.Navigator>
+        </NavigationContainer>
     );
 }
 

@@ -5498,23 +5498,6 @@
   dependencies:
     "minimist" "^1.2.5"
 
-"mobx-react-lite@^3.2.0":
-  "integrity" "sha1-Mx1zZaawUzeN/pwIcxW05Bxd9p8="
-  "resolved" "https://registry.npm.taobao.org/mobx-react-lite/download/mobx-react-lite-3.2.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmobx-react-lite%2Fdownload%2Fmobx-react-lite-3.2.0.tgz"
-  "version" "3.2.0"
-
-"mobx-react@^7.2.0":
-  "integrity" "sha1-JB6SXpY7uDox0mn2X583njfsuus="
-  "resolved" "https://registry.nlark.com/mobx-react/download/mobx-react-7.2.0.tgz"
-  "version" "7.2.0"
-  dependencies:
-    "mobx-react-lite" "^3.2.0"
-
-"mobx@^6.1.0", "mobx@^6.3.2":
-  "integrity" "sha1-ElWQlh9wKlcsE5q2k5K+pBbS5Rs="
-  "resolved" "https://registry.nlark.com/mobx/download/mobx-6.3.2.tgz"
-  "version" "6.3.2"
-
 "mockdate@^3.0.2":
   "integrity" "sha1-eJvmht6zFJ598rZj0rxDkrwyhPs="
   "resolved" "https://registry.npm.taobao.org/mockdate/download/mockdate-3.0.5.tgz"
@@ -6353,7 +6336,7 @@
     "react-shallow-renderer" "^16.13.1"
     "scheduler" "^0.20.1"
 
-"react@*", "react@^16.0.0 || ^17.0.0", "react@^16.3.0", "react@^16.8.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@>=16.0", "react@17.0.1":
+"react@*", "react@^16.0.0 || ^17.0.0", "react@^16.3.0", "react@^16.8.0 || ^17.0.0", "react@>=16.0", "react@17.0.1":
   "integrity" "sha1-bgYAQWvVdXTj+G2S7bo9kAhyYSc="
   "resolved" "https://registry.nlark.com/react/download/react-17.0.1.tgz?cache=0&sync_timestamp=1627056961584&other_urls=https%3A%2F%2Fregistry.nlark.com%2Freact%2Fdownload%2Freact-17.0.1.tgz"
   "version" "17.0.1"
